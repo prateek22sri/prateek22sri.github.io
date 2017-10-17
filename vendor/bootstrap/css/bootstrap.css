@@ -3319,6 +3319,8 @@ tbody.collapse.show {
   background: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  /*background-image: url("https://www.mba-ks.com/sf_images/default-source/mbaks/icons/hamburger.png?Status=Temp&sfvrsn=2");*/
+
 }
 
 .navbar-toggler:focus, .navbar-toggler:hover {
@@ -3331,7 +3333,8 @@ tbody.collapse.show {
   height: 1.5em;
   vertical-align: middle;
   content: "";
-  background: no-repeat center center;
+  background-image: url("https://www.mba-ks.com/sf_images/default-source/mbaks/icons/hamburger.png?Status=Temp&sfvrsn=2");
+  /*background: no-repeat center center;*/
   background-size: 100% 100%;
 }
 
