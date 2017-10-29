@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="415960ca-a69c-4a22-b2bb-d5b5390ae6fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/one-page-wonder.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/IMG_1534 copy.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/IMG_1534.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/green_me.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/green_me_edited-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/green_me_edited-1.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/me.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/popper/popper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/popper/popper.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="415960ca-a69c-4a22-b2bb-d5b5390ae6fc" name="Default" comment="site migrated to jekyll" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508206262544</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="site migrated to jekyll">
+      <created>1509260095858</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1509260095858</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -306,7 +286,8 @@
     <MESSAGE value="image addition" />
     <MESSAGE value="added hamburger button" />
     <MESSAGE value="hover color changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="hover color changed" />
+    <MESSAGE value="site migrated to jekyll" />
+    <option name="LAST_COMMIT_MESSAGE" value="site migrated to jekyll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

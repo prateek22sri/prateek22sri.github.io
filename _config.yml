@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Prateek Srivastava
+tagline:          Computer Scientist
+description:
+url:              prateeksrivastava.net
+baseurl:          /
+
+author:
+  name:           'Prateek Srivastava'
+  url:            http://prateeksrivastava.net
+
+gems: [jekyll-paginate]
+paginate:         5
+paginate_path: "page:num"
+
+# Custom vars
+
+github: https://github.com/prateek22sri
+linkedin: https://www.linkedin.com/in/prateek22sri
+bitbucket: https://bitbucket.org/pratsriv/
+
+defaults:
+  - scope:
+      path: "public"
+    values:
+      image: true
