@@ -1,15 +1,19 @@
 - title : "Research Interests"
   loc : "sections/research-interests.md"
   layout : "section"
+  id : 1
 
 - title : "Educations"
   loc : "sections/educations.md"
   layout : "section"
+  id : 2
 
 - title : "Technical Experience"
   loc : "sections/technical-experience.md"
   layout : "section"
+  id : 3
 
 - title : "Contact"
   loc : "sections/contact.md"
   layout : "section"
+  id : 4

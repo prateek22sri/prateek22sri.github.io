@@ -18,8 +18,7 @@
             {% for section in site.data.sections %}
             {% if section.title != null %}
             {% if section.layout == "section" %}
-            <a class="sidebar-nav-item active" href="{{ section.url }}">{{
-                section.title }}</a>
+            <a class="sidebar-nav-item active" href="#{{ section.id }}">{{ section.title }}</a>
             {% endif %}
             {% endif %}
             {% endfor %}
