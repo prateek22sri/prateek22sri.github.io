@@ -1,0 +1,15 @@
+- title : "Research Interests"
+  loc : "sections/research-interests.md"
+  layout : "section"
+
+- title : "Educations"
+  loc : "sections/educations.md"
+  layout : "section"
+
+- title : "Technical Experience"
+  loc : "sections/technical-experience.md"
+  layout : "section"
+
+- title : "Contact"
+  loc : "sections/contact.md"
+  layout : "section"

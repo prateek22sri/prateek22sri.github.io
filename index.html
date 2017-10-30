@@ -1,0 +1,31 @@
+---
+layout: page
+title: Home
+---
+
+<h1>{{ site.author.name }}</h1>
+<p class="message">
+  Hi! I am a student at Indiana University Bloomington pursuing my MS in Computer Science
+</p>
+
+{% for section in site.data.sections %}
+  <div class="row section">
+      <div class="col-sm-6">
+        <h2>{{ section.title }}</h2>
+        <!--
+        To properly render markdown includes as HTML, the include tag must be
+        captured as a string, and this must be passed to the `markdownify` filter.
+        -->
+        {% capture section_description %}{% include {{ section.loc }} %}{% endcapture %}
+        {{ section_description | markdownify }}
+
+        <!--
+        The following will not parse the markdown include - it won't be properly
+        rendered into HTML and will display as the original markdown.
+        -->
+        {% comment %}
+        {% include {{ section.description }} %}
+        {% endcomment %}
+      </div>
+</div>
+{% endfor %}
