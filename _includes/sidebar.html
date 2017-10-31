@@ -7,7 +7,7 @@
             <p class="lead">{{ site.description }}</p>
         </div>
 
-        <nav class="sidebar-nav">
+        <nav id="sidebar" class="sidebar-nav">
             <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
             {% comment %}
@@ -25,8 +25,8 @@
 
             <div id="socialMedia">
                 <a class="sidebar-nav-item inlineGrid" href="{{ site.linkedin }}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a class="sidebar-nav-item inlineGrid" href="{{ site.bitbucket }}"><i class="devicon-bitbucket-plain-wordmark"></i></a>
-                <a class="sidebar-nav-item inlineGrid" href="{{ site.github }}"><i class="devicon-github-plain-wordmark"></i></a>
+                <a class="sidebar-nav-item inlineGrid" href="{{ site.bitbucket }}"><i class="fa fa-bitbucket-square" aria-hidden="true"></i></a>
+                <a class="sidebar-nav-item inlineGrid" href="{{ site.github }}"><i class="fa fa-github-square" aria-hidden="true"></i></a>
             </div>
         </nav>
 
