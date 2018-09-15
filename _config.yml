@@ -4,9 +4,9 @@ highlighter:      rouge
 
 # Setup
 title:            Prateek Srivastava
-tagline:          Computer Scientist
+tagline:          Computer Engineer
 description:
-url:              prateeksrivastava.net
+url:              prateek22sri.me
 baseurl:          /
 
 author:
@@ -18,7 +18,6 @@ author:
 #paginate_path: "page:num"
 
 # Custom vars
-
+facebook: https://www.facebook.com/prateek22
 github: https://github.com/prateek22sri
 linkedin: https://www.linkedin.com/in/prateek22sri
-bitbucket: https://bitbucket.org/pratsriv/

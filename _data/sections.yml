@@ -8,18 +8,23 @@
   layout : "section"
   id : 2
 
-- title : "Technical Experience"
-  loc : "sections/technical-experience.md"
+- title : "Work Experience"
+  loc : "sections/work-experience.md"
   layout : "section"
   id : 3
+
+- title : "Academic Projects"
+  loc : "sections/academic-projects.md"
+  layout : "section"
+  id : 4
 
 - title : "Tutorials / Blogs"
   loc : "sections/tutorials.md"
   layout : "section"
-  id : 4
+  id : 5
 
 
 - title : "Contact"
   loc : "sections/contact.md"
   layout : "section"
-  id : 5
+  id : 6
