@@ -1,6 +1,6 @@
 # Prateek Srivastava
 
-This project is rendering my website using Jekyll framework.
+This project is rendering the website of the owner using Jekyll framework.
 
 Link: prateeksrivastava.net
 
