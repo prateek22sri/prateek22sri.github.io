@@ -18,13 +18,18 @@
   layout : "section"
   id : 4
 
+- title : "Posters"
+  loc : "sections/posters.md"
+  layout : "section"
+  id : 5
+
 - title : "Tutorials / Blogs"
   loc : "sections/tutorials.md"
   layout : "section"
-  id : 5
+  id : 6
 
 
 - title : "Contact"
   loc : "sections/contact.md"
   layout : "section"
-  id : 6
+  id : 7
