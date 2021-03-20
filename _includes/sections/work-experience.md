@@ -1,7 +1,13 @@
+#### Instructor | Intelligent Systems Engineering, Indiana University | Jun 2019 - Jul 2019
++ Designed and taught an online summer course on “software systems engineering” with C
+
+#### Summer Intern | (Dr. Maya Gokhale) Lawrence Livermore National Lab, Livermore, California | May 2018 - Aug 2018
++ Built a dynamic delay unit for Logic in-Memory Emulator (LiME) which allowed users to model(emulate) current and future memory systems as well as near memory accelerators
++ Developed the dynamic delay unit in LiME on a Zynq Ultrascale+ MPSoC FPGA (Fidus Sidewinder or ZCU102) to get cycle accurate emulations with only 20x slower than real time execution speeds. 
+
 #### Research Assistant | (Prof. Thomas Sterling) Intelligent Systems Engineering, Indiana University	| May 2018 – Present
-+	Designing proof-of-concept for a Non-Von Neumann computer architecture project called “Simultac” by prototyping the compute cells embedded in Field Programmable Gate Arrays (FPGAs)
-+	Defining the complete specification along with the instruction set architecture (ISA) and exploring various interfaces for host to programmable logic communication (PCIe), processing system to programmable logic (AXI buses), and FPGA-to-FPGA communication via QSFP28
-+	Synthesized multiple projects consisting combinatorial as well as sequential circuits on FPGAs including adders, multiplexers, finite state machines, and pulse width modulations on FPGA boards such as PYNQ-Z1(Zynq), Basys3(Artix-7), and VCU118(Virtex Ultrascale+)
++ Prototyping computing cells embedded in Field Programmable Gate Arrays (FPGAs) by designing proof-of-concept for non-von Neumann computer architecture along with its instruction set architecture
++ Engineering a test-infrastructure for the same non-Von Neumann architecture and experimenting with various interfaces for host to programmable logic (PCIe), processing system to programmable logic (AXI buses), and programmable logic to programmable logic (QSFP28), to incorporate it in the testing infrastructure with maximum performance
 
 #### Research Assistant | (Prof. Thomas Sterling) Center for Research in Extreme Scale Technologies, Indiana University | Jun 2017 – May 2018
 +	Worked primarily in exploration of dynamic and static parallel graph algorithms

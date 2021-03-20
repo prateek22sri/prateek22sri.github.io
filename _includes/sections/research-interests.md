@@ -1,1 +1,1 @@
-My research interests are essentially High-Performance Computing. My major work is with Parallel Graph Processing Algorithms and I am working towards designing the architecture of an accelerator for graph processing.
+My research interests is in High-Performance Computing. My primary research is reducing overheads in a class of general-purpose non-von Neumann architecture system simulated on an FPGA to expose and exploit parallelism specialized in dynamic graph processing for AI and ML applications
