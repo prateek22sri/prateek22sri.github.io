@@ -26,6 +26,8 @@ group :jekyll_plugins do
    gem "jekyll-gist"
    gem "pygments.rb"
    gem "kramdown", ">=2.3.1"
+   gem "rexml", ">= 3.2.5"
+   gem "webrick"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
