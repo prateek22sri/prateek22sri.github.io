@@ -13,23 +13,28 @@
   layout : "section"
   id : 3
 
+- title : "Teaching Experience"
+  loc : "sections/teaching-experience.md"
+  layout : "section"
+  id : 4
+
 - title : "Academic Projects"
   loc : "sections/academic-projects.md"
   layout : "section"
-  id : 4
+  id : 5
 
 - title : "Posters"
   loc : "sections/posters.md"
   layout : "section"
-  id : 5
+  id : 6
 
 - title : "Tutorials / Blogs"
   loc : "sections/tutorials.md"
   layout : "section"
-  id : 6
+  id : 7
 
 
 - title : "Contact"
   loc : "sections/contact.md"
   layout : "section"
-  id : 7
+  id : 8

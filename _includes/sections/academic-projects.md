@@ -1,20 +1,17 @@
-**Feld Programmable Gate Arrays (Verilog, VHDL)**
-+	Implemented a floating-point unit for a Xilinx Virtex Ultrascale+ FPGA board (VCU118)
-+	Implemented a hardware implementation of a feed-forward Convolutional Neural Network called XNOR-Net which has faster execution due to the replacement of vector-matrix multiplication to “XNOR + Pop-count” operation
+**Doctoral Thesis - FPGA based simulator for a novel non-von Neumann architecture based computer (C, Python, Verilog)**
++ Developing a cycle accurate FPGA based simulator for a non-Von Neumann general-purpose computer called Continuum Computer Architecture, specialized for dynamic graph processing for applications in the field of AI and ML, n-body simulations, and Adaptive Mesh Refinement
++ Enhancing performance by reducing starvation, latency, overheads, and contention via a ParalleX based execution model, hardware mechanisms for global namespace translations, adaptive routing and reordering of a message based runtime system, and graph primitive operations
++ Projected an instance of CCA to yield 600x peak performance improvement, 300x increase in memory bandwidth, and 95% reduction of physical footprint compared to Sunway TaihuLight
 
-**High Performance Computing (OpenMP, MPI, CUDA, C/C++)**
-+	(Master’s Thesis) Conducted a comparative analysis on scaling results for graph algorithms like single source shortest path (SSSP) algorithm using multiple runtime systems thereby reducing time to solution for graph processing with a message driven runtime system (like Charm++) or Graph500
-+	Created a parallel variant of a graph algorithm (Dijkstra’s algorithm) using OpenMP on a Cray machine (XE6/XK7) and performed the benchmarking for single node up to 32 processing units.
-+	Implemented parallel programs, performance benchmarking, latency reduction and resource contention resolution. Used Perf and VampirTrace.
+**High Performance Computing (OpenMP, MPI, C/C++); Master’s Thesis**
++ Reduced time to solution by 90% with a message driven runtime system (like Charm++) or Graph500 by conducting a comparative analysis on scaling results for graph processing algorithms like single source shortest path (SSSP) algorithm 
++ Slashed 39% execution time on graph processing by creating a parallel variant of a graph algorithm (Dijkstra’s algorithm) on shared memory processors using OpenMP, MPI and parallel boost graph library on a graph size of 100GB
 
-**Natural Language Processing (C++, Python, NLTK, SciKit)**
-+	Developed an artificial intelligence bot capable of doing natural language processing. The application can store information with simple English sentences and is also capable of answering questions with keyword search about the information already stored in the system. The technologies used were Alexa Skills Kit, SpaCy, core NLP, Stardog, and Neo4J
+**Natural Language Processing (C++11, Python, NLTK, SciKit, Alexa Skills Kit, SpaCy, coreNLP, Stardog, Neo4J)**
++ Developed a speech aided NLP based artificial intelligence bot with an end-to-end response time of ~300ms capable of storing information from simple English sentences and respond the questions with keyword search about the information already stored in the system using Stardog and Neo4J
++ Built a genre detection tool with 91% accuracy for text classification (as sci-fi, history, physics, art etc.). Topic modelling was done using Tf-Idf and K-nearest neighbors (KNN) for classification. Other techniques including dependency parsing, bigram models, deep learning constructs like CNN and RNN, and ensemble approach with multiple weak-voting classifiers, were used but performed poorly in terms of accuracy
 
-**Machine learning & Deep learning (Python, SciKit)**
-+	Built a genre detection tool for text using lexical and statistical (machine learning) techniques, including dependency parsing, bigram models, deep learning constructs like CNN and RNN, ensemble approach with multiple weak-voting classifiers, and support vector machine
-+	Created an image orientation detection tool by finding k-nearest neighbors on the test image using adaptive boosting model
-+	Coded a chess playing engine using heuristic based minimax with alpha-beta pruning.
+**Advanced Operating Systems: Embedded OS Development in C (C, XINU, LINUX)**
++ Implemented virtual memory and a lightweight file system to enhance security and reliability of the memory management unit  in the XINU operating system on an embedded SoC (BeagleBone Black) which is used in handheld gaming consoles and IoT devices
++ Engineered process synchronization mechanisms using semaphores, promises & futures
 
-**Advanced Operating Systems: Embedded OS Development in C (C, UNIX, XINU, LINUX)**
-+	Created system calls and augmented the embedded OS at different levels of abstraction such as Threading and Synchronization, scheduler, memory management, hybrid cache replacement policies, interrupt handler, drivers, network protocols and file system.
-+	Conceptualized and implemented Semaphores & Futures, a process synchronization mechanism using FIFO queue.
