@@ -97,7 +97,7 @@ DEPENDENCIES
   minima (~> 2.0)
   pygments.rb
   redcarpet
-  rexml (>= 3.2.5)
+  rexml (>= 3.2.7)
   tzinfo-data
   webrick
 
